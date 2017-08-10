@@ -1,0 +1,26 @@
+{
+  "name": "customizable",
+  "version": "1.0.0",
+  "description": "Node.js wedge to allow customized code to override repo code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djulien/customizable.git"
+  },
+  "author": "djulien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djulien/customizable/issues"
+  },
+  "homepage": "https://github.com/djulien/customizable#readme",
+  "dependencies": {
+    "find-parent-dir": "^0.3.0",
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "colors": "git+https://github.com/djulien/colors.js.git"
+  }
+}
