@@ -1,15 +1,15 @@
 # customizable
 Node.js wedge to allow customized code to override repo code
 
-# installation
-`npm install customize`
+# Installation
+`npm install customize --save`
 
-# usage
+# Usage
 
-`require('customize');`
-`...`
-'require('other.js');`
+```require('customize');
+...
+require('other.js');```
 
-will actually require 'my-other.js' if found
+will actually require **'my-other.js'** in place of **'other.js'** if found.
 
 See test/test.js for an example.
