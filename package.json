@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
+   "engines": {
+    "node": "v8.2.1"
+  },
+  "scripts": {
+    "test": "test/test.js"
+  },
+ "repository": {
     "type": "git",
     "url": "git+https://github.com/djulien/customizable.git"
   },
   "author": "djulien",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/djulien/customizable/issues"
   },
