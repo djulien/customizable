@@ -2,11 +2,11 @@
 Node.js wedge to allow customized code to override repo code
 
 # Installation
-`npm install customize --save`
+`npm install customizable --save`
 
 # Usage
 ```javascript
-require('customize');
+require('customizable');
 ...
 require('other.js');
 ```
